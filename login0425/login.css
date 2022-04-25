@@ -1,0 +1,176 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+@font-face {
+	font-family: 'iconfont'; /* project id 3197060 */
+	src: url('');
+	src: url('?#iefix') format('embedded-opentype'),
+		url('//at.alicdn.com/t/font_3197060_4ktff6jodt6.woff2') format('woff2'),
+		url('//at.alicdn.com/t/font_3197060_4ktff6jodt6.woff') format('woff'),
+		url('//at.alicdn.com/t/font_3197060_4ktff6jodt6.ttf') format('truetype'),
+		url('#iconfont') format('svg');
+}
+.container {
+	padding: 40px;
+	width: 100%;
+	min-height: 100vh;
+	background: linear-gradient(rgb(229, 132, 132), #4bb1e0);
+	display: flex;
+	justify-content: center;
+}
+@media (min-width: 576px) {
+	.wrapper {
+		max-width: 540px;
+	}
+}
+@media (min-width: 768px) {
+	.wrapper {
+		max-width: 720px;
+	}
+}
+@media (min-width: 992px) {
+	.wrapper {
+		max-width: 960px;
+	}
+}
+@media (min-width: 1200px) {
+	.wrapper {
+		max-width: 1140px;
+	}
+}
+.wrapper {
+	width: 100%;
+	padding: 0 15px;
+	display: flex;
+	justify-content: flex-end;
+}
+.wrapper .form-info {
+	padding-top: 60px;
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper .form-info .info h1 {
+	color: #fff;
+	font-size: 40px;
+	letter-spacing: 6px;
+	white-space: nowrap;
+}
+.wrapper .form-info .info p {
+	margin-top: 20px;
+	color: rgb(231, 221, 221);
+	font-size: 18px;
+}
+.wrapper .form-info .form {
+	margin-top: 40px;
+}
+.wrapper .form-info .form h2 {
+	letter-spacing: 14px;
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+.wrapper .form-info .form .input-group {
+	padding: 0px 0px;
+	position: relative;
+	border: 3px solid #fff;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0;
+}
+.wrapper .form-info .form .input-group i {
+	font-size: 20px;
+	vertical-align: middle;
+	box-sizing: border-box;
+	float: left;
+	width: 8%;
+	margin-top: 13px;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	left: 8px;
+	top: 6px;
+}
+input[type='email'],
+input[type='Password'] {
+	font-size: 17px;
+	font-weight: 500;
+	color: #fff;
+	text-align: left;
+	padding: 18px 18px 20px 42px;
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	background: transparent;
+	letter-spacing: 0.5px;
+}
+.wrapper .form-info .form .input-group.two-group {
+	border-top: none;
+	margin-bottom: 30px;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0;
+}
+.wrapper .form-info .form .form-row.bottom {
+	display: flex;
+	justify-content: space-between;
+}
+.wrapper .form-info .form .form-check {
+	display: flex;
+	align-items: center;
+}
+.wrapper .form-info .form .form-row.bottom #remenber {
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+}
+.wrapper .form-info .form .form-row.bottom #remenber + label {
+	color: rgb(77, 74, 71);
+}
+.wrapper .form-info .form a.forgot {
+	color: #ffeb3b;
+	margin-top: 2px;
+	opacity: 0.8;
+}
+.btn-primary {
+	color: #232005;
+	background-color: #ffd900;
+	margin-top: 30px;
+	outline: none;
+	width: 100%;
+	padding: 15px 15px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 6px;
+	letter-spacing: 8px;
+	text-indent: 8px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border: none;
+	text-transform: capitalize;
+}
+p.account,
+p.account a {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	font-size: 16px;
+	color: #fff;
+	opacity: 0.9;
+}
